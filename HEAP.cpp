@@ -17,4 +17,11 @@ int main(){
 		cout<<arr[i]<<endl;
 		/* code */
 	}
+	delete []arr;
+	arr=NULL;
+	// this is used to delete the array 
+	// this is arr is pointer 
+	cout<<"sahil";
+
+	return 0;
 }
